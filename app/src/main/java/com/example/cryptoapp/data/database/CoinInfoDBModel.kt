@@ -31,5 +31,5 @@ data class CoinInfoDBModel(
     val lastMarket: String?,
 //    @SerializedName("IMAGEURL")
 //    @Expose
-    val imageUrl: String?
+    val imageUrl: String
 )

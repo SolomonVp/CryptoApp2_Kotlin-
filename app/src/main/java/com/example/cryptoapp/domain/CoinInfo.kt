@@ -5,29 +5,29 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 data class CoinInfo(
-    @PrimaryKey
-    @SerializedName("FROMSYMBOL")
-    @Expose
+//    @PrimaryKey
+//    @SerializedName("FROMSYMBOL")
+//    @Expose
     val fromSymbol: String,
-    @SerializedName("TOSYMBOL")
-    @Expose
+//    @SerializedName("TOSYMBOL")
+//    @Expose
     val toSymbol: String?,
-    @SerializedName("PRICE")
-    @Expose
+//    @SerializedName("PRICE")
+//    @Expose
     val price: String?,
-    @SerializedName("LASTUPDATE")
-    @Expose
-    val lastUpdate: Long?,
-    @SerializedName("HIGHDAY")
-    @Expose
+//    @SerializedName("LASTUPDATE")
+//    @Expose
+    val lastUpdate: String,
+//    @SerializedName("HIGHDAY")
+//    @Expose
     val highDay: String?,
-    @SerializedName("LOWDAY")
-    @Expose
+//    @SerializedName("LOWDAY")
+//    @Expose
     val lowDay: String?,
-    @SerializedName("LASTMARKET")
-    @Expose
+//    @SerializedName("LASTMARKET")
+//    @Expose
     val lastMarket: String?,
-    @SerializedName("IMAGEURL")
-    @Expose
-    val imageUrl: String?
+//    @SerializedName("IMAGEURL")
+//    @Expose
+    val imageUrl: String
 )
